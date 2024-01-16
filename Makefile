@@ -3,6 +3,7 @@ SRC_FILES = $(wildcard *.c)
 FLAGS = -Wall -I./include
 
 all: $(TARGET)
+	./main.out
 
 $(TARGET): $(SRC_FILES)
 	gcc $(FLAGS) $(SRC_FILES) -o $(TARGET).out
