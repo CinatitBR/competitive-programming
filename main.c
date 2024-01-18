@@ -22,8 +22,5 @@ int main() {
 		dict[i][size-1] = '\0';
 	}
 
-	printf("WORDS\n: ");
-	for (int i = 0; i < k; i++) {
-		printf("%s\n", dict[i]);
-	}
+		
 }
